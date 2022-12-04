@@ -12,6 +12,6 @@ for i in range(35):
     f2 = f_sum
     i += 1
 for j in a:
-    if j % 2 == 0 and j < 4000000:
+    if j % 2 == 0 and j < 4_000_000:
         b.append(j)
 print(sum(b))
