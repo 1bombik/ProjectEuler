@@ -1,3 +1,5 @@
+# https://projecteuler.net/problem=20
+
 import numpy as np
 
 a = np.math.factorial(100)
