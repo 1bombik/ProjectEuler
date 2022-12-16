@@ -1,3 +1,5 @@
+# https://projecteuler.net/problem=8
+
 from functools import reduce
 
 with open('eiler_8.txt', 'r') as a:

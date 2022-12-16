@@ -1,3 +1,5 @@
+# https://projecteuler.net/problem=34
+
 import numpy as np
 
 numbers = []
