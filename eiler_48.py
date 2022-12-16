@@ -1,3 +1,5 @@
+# https://projecteuler.net/problem=48
+
 a = []
 for i in range(1, 1001):
     a.append(i ** i)

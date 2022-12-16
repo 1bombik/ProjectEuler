@@ -1,3 +1,5 @@
+# https://projecteuler.net/problem=14
+
 sub_len = 0
 answer = 0
 for a in range(1, 1_000_000):
