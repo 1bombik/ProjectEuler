@@ -7,4 +7,4 @@ y = [2]
 for b in range(3, a+1, 2):
     if isprime(b) and a % b == 0:
         y.append(b)
-print("Max prime factor of", a, "is", max(y))
+print(f"Max prime factor of {a} is {max(y)}")

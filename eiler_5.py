@@ -1,12 +1,12 @@
 # https://projecteuler.net/problem=5
 
-import numpy as n
+import numpy as np
 
 first = int(input("Enter the first number of the range: "))
 last = int(input("Enter the last number of the range: "))
-a = n.array([1])
+a = np.array([1])
 x = first
 for x in range(first, last+1):
-    a = n.append(a, x)
-y = n.lcm.reduce(a)
+    a = np.append(a, x)
+y = np.lcm.reduce(a)
 print(y)
