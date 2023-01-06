@@ -10,6 +10,5 @@ for num in range(1, 10000):
         if da % divs == 0:
             db += divs
     if friend_num == db and da != db:
-        answer.append(da)
         answer.append(db)
-print(sum(set(answer)))
+print(sum(answer))
