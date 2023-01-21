@@ -1,5 +1,5 @@
 abunts = []
-answer = 0
+answer = []
 for i in range(1, 28124):
     divs = []
     for number in range(1, i):
@@ -11,5 +11,5 @@ for j in range(28124):
     for k in range(28124):
         num = j + k
         if num not in abunts:
-            answer += num
-print(answer)
+            answer.append(num)
+print(sum(set(answer)))
